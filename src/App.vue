@@ -116,7 +116,10 @@ div.imgs_wrapper {
 
 div.imgs_wrapper img {
     flex: 30%;
-    height: 40vh;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    max-height: 40vh;
     object-fit: contain;
     padding: 30px;
     filter: drop-shadow(10px 10px 10px rgba(0,0,0,.5));
