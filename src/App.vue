@@ -100,23 +100,23 @@ export default {
 </script>
 
 <style>
-
 * {
     padding: 0;
     margin: 0;
 }
+
 div.imgs_wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    height: 90vh;
     width: 100%;
+    height: 100%;
 }
 
 div.imgs_wrapper img {
     flex: 30%;
-    height: 40%;
+    height: 40vh;
     object-fit: contain;
     padding: 30px;
     filter: drop-shadow(10px 10px 10px rgba(0,0,0,.5));
@@ -187,7 +187,6 @@ button {
 div.loginout {
     position: sticky;
     top: 0;
-    right: 0;
     width: 100%;
     height: 10%;
     background-color: #337ecc;
