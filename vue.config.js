@@ -1,4 +1,5 @@
 module.exports = {
     publicPath: "./",
-    outputDir: "honorWall"
+    outputDir: "honorWall",
+    productionSourceMap: false
 }
