@@ -8,6 +8,6 @@
 
 api鉴权使用jwt，没有session-cookie的跨域问题。
 
-在线预览链接: https://url.wuuconix.link/honor
+在线预览链接: https://wuuconix.link/honor
 
 ![页面截图](https://tvax4.sinaimg.cn/large/007YVyKcly1h2abyyc5h1j31gs0o1x0p.jpg)
