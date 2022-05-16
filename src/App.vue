@@ -159,7 +159,6 @@ div.shadow img {
 }
 
 input {
-    width: 30%;
     height: 32px;
     line-height: 32px;
     font-size: 16px;
@@ -221,4 +220,18 @@ button:hover {
 span, p {
     color: white;
 }
+
+@media screen and (orientation:landscape) {
+    input {
+        width: 500px;
+    }
+}
+
+@media screen and (orientation:portrait) {
+    input {
+        width: 80%;
+    }
+}
+
 </style>
+
